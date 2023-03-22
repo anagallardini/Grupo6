@@ -8,7 +8,44 @@
     <title>Document</title>
 
 </head>
-<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Enlace</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Acción</a></li>
+              <li><a class="dropdown-item" href="#">Otra acción</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Algo más aquí</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Deshabilitado</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
     <section class="contenedorMain-fluid">
         <div class="container p-5 text-center">
           <h3>Acerca de Nosotros</h3>
@@ -65,10 +102,42 @@
           </div>
         </div>
       </section>
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <div class="b-example-divider"></div>
+    <div class="container">
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5 my-5 border-top">
+        <div class="col mb-3">
+          <a  href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none" >
+             <img src="./imagenes/img.jng.png" alt="logo" class="bi me-2" width="80" height="80" href="#">
+            
+          </a>
+          <p class="text-muted">&copy; 2023</p>
+        </div>
+    
+        <div class="col mb-2">
+        </div>
+    
+        <div class="col mb-2">
+          <h5>¡Te Ayudamos!</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a target="_blank" href="https://web.whatsapp.com/" class="nav-link p-0 text-muted">Mandanos un Whatsapp</a></li>
+            <li class="nav-item mb-2"><a target="_blank" href="./error404.html" class="nav-link p-0 text-muted">Mandanos un mail</a></li>
+            <li class="nav-item mb-2"><a target="_blank" href="./error404.html" class="nav-link p-0 text-muted">Preguntas frecuentes</a></li>
+            <li class="nav-item mb-2"><a target="_blank" href="./error404.html" class="nav-link p-0 text-muted">Cambios y Devoluciones</a></li>
+          
+          </ul>
+        </div>
+        <div class="col mb-2">
+          <h5>Seguinos</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a target="_blank" href="https://www.instagram.com/" class="nav-link p-0 text-muted">Instagram</a></li>
+            <li class="nav-item mb-2"><a target="_blank" href="https://www.facebook.com/" class="nav-link p-0 text-muted">Facebook</li>
+              <li class="nav-item mb-2"><a target="_blank" href="https://www.tiktok.com/" class="nav-link p-0 text-muted">Tiktok</a></li>
+              <li class="nav-item mb-2"><a target="_blank" href="https://ar.pinterest.com/" class="nav-link p-0 text-muted">Pinterest</a></li>
+          </ul>
+        </div>
+      </div>
+      </footer>
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </htm
